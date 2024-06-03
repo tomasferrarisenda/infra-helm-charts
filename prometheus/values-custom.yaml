@@ -1,8 +1,8 @@
 server:
   persistentVolume:
     enabled: false
-    storageClass: 'standard'
-    size: 1Gi
+    # storageClass: 'standard'
+    # size: 1Gi
 
   # ingress:
   #   enabled: true
