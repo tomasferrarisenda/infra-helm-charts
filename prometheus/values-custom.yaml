@@ -1,6 +1,8 @@
 server:
   persistentVolume:
-    storageClass: 'gp2'
+    storageClass: 'standard'
+    size: 1Gi
+
   # ingress:
   #   enabled: true
   #   annotations: {    
@@ -26,5 +28,7 @@ server:
     
 
 alertmanager:
+  persistence:
+    size: 1Gi
   persistentVolume:
-    storageClass: 'gp2'
+    storageClass: 'standard'
