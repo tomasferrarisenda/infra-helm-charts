@@ -31,7 +31,6 @@ configs:
 server:
   ingress:
     # -- Enable an ingress resource for the Argo CD server
-    enabled: false
-    ingressClassName: "nginx"
+    enabled: true
     hosts:
       - argocd.local
