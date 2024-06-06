@@ -1,6 +1,3 @@
-# ingress-nginx:
-#   Enabled: true
-  
 OperationsCenter:
   HostName: cloudbees-core.local
   ServiceType: NodePort
@@ -24,10 +21,8 @@ OperationsCenter:
     # ConfigMapName: oc-casc-bundle
     Retriever:
       Enabled: true
-      # scmRepo: https://github.com/tomasferrarisenda/cloudbees-core-minikube-lab
       scmRepo: https://github.com/tomasferrarisenda/cloudbees-casc
       scmBranch: main
-      # scmBundlePath: "cloudbees-casc/operations-center"
       scmBundlePath: "operations-center"
 
   License:
