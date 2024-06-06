@@ -34,4 +34,4 @@ server:
     enabled: true
     ingressClassName: "nginx"
     hosts:
-      - argocd.local.com
+      - argocd.local
